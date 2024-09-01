@@ -1,0 +1,15 @@
+services:
+  apache:
+    image: desafio-apache-html
+    container_name: desafio-apache-container
+    ports:
+      - "8080:80"
+    volumes:
+      - ./html:/usr/local/apache2/htdocs/
+      - ./images:/usr/local/apache2/htdocs/images/
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    driver: bridge
