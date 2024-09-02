@@ -22,9 +22,11 @@
 
 **Resultado:** Site interativo com algumas cores
 
-## 🎥 Demonstração do site
+##### 🎥 [Veja o site em ação no YouTube](https://youtu.be/foAQtdR_iU4)
 
-![Demonstração](images/cores.mp4)
+
+
+![Cores](images/cores.png)
 
 ---
 
